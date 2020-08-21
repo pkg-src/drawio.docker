@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+export DISPLAY=:1
+xvfb-run -a /squashfs-root/drawio "$@" --no-sandbox --headless --disable-gpu
